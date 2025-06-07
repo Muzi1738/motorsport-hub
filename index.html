@@ -1,0 +1,805 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MotorSportHub</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <span class="toggle-btn" onclick="toggleSidebar()">☰</span>
+        <a href="#">Login / Signup</a>
+    </div>
+    <div id="sidebar" class="sidebar">
+        <a href="#" class="fade-in">Logo</a>
+        <a href="#" class="fade-in active">Home</a>
+        <a href="#" class="fade-in">F1 Page</a>
+        <a href="#" class="fade-in">DTM Page</a>
+        <a href="#" class="fade-in">WRC Page</a>
+        <a href="#" class="fade-in">IndyCar Page</a>
+        <a href="#" class="fade-in">Take Quiz</a>
+        <a href="#" class="fade-in">Car Compare</a>
+        <a href="#" class="fade-in">Leader Boards</a>
+
+        <div class="Login-logout">
+            <hr>
+            <a href="#" class="fade-in">Login / Signup</a>
+        </div>
+    </div>
+
+    <main>
+        <article class="hero">
+            <div>
+                <section class="hero-message fade-in-text">
+                    Your Ultimate MotorSportHub
+                </section>
+                <section class="sub-text">
+                    Bringing All Motor Sports To The Tip Of Your Fingers
+                </section>
+                <section class="dropdown-container">
+                    <article class="dropdown">
+                        <button class="dropbtn">Take Quiz</button>
+                        <div class="dropdown-content">
+                            <a href="#">F1 Quiz</a>
+                            <a href="#">DTM Quiz</a>
+                            <a href="#">WRC Quiz</a>
+                            <a href="#">More</a>
+                        </div>
+                    </article>
+    
+                    <article class="dropdown">
+                        <button class="dropbtn">Explore Stats</button>
+                        <div class="dropdown-content">
+                            <a href="#">Formula 1</a>
+                            <a href="#">DTM</a>
+                            <a href="#">WRC</a>
+                        </div>
+                    </article>
+    
+                    <article class="dropdown">
+                        <button class="dropbtn">Compare Cars</button>
+                        <div class="dropdown-content">
+                            <a href="#">Formula 1</a>
+                            <a href="#">DTM</a>
+                            <a href="#">WRC</a>
+                            <a href="#">IndyCar</a>
+                            <a href="#">More</a>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </article>
+
+        <article class="high-light-container">
+            <section class="high-light-header">
+                <h1>MotorSport Highlights</h1>
+                <p>Emphasizes the raw pace and unforgettable highlights.</p>
+            </section>
+            <section class="grid">
+                <article class="card">
+                    <section class="card-content">
+                        <div class="table-wrapper">
+                            <table class="diagnostic-table">
+                                <thead>
+                                    <tr>
+                                        <th>Rank</th>
+                                        <th>Driver</th>
+                                        <th>Points</th>
+                                        <th>Podiums</th>
+                                        <th>Wins</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>O. Piastri <br> <div class="team-name">McLaren</div></td>
+                                        <td>113</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            L. Norris <br> <div class="team-name">McLaren</div>
+                                        </td>
+                                        <td>115</td>
+                                        <td>5</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            M. Vestarppen <br> <div class="team-name">RedBull</div>
+                                        </td>
+                                        <td>99</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>
+                                            G. Russel <br> <div class="team-name">Mercedes</div>
+                                        </td>
+                                        <td>93</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>
+                                            C. Leclerc <br> <div class="team-name">Ferrari</div>
+                                        </td>
+                                        <td>53</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>F1 Driver Standings</h3>
+                    </section>
+                    <div class="arrow" href="#">→</div>
+                </article>
+    
+                <article class="card">
+                    <section class="card-content">
+                        <div class="table-wrapper">
+                            <table class="diagnostic-table">
+                                <thead>
+                                    <tr>
+                                        <th>Rank</th>
+                                        <th>Driver</th>
+                                        <th>Points</th>
+                                        <th>Podiums</th>
+                                        <th>Wins</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>McLaren</td>
+                                        <td>246</td>
+                                        <td>10</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Mercedes</td>
+                                        <td>141</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Red Bull</td>
+                                        <td>105</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Ferrari</td>
+                                        <td>94</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Williams</td>
+                                        <td>37</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>F1 Constructors</h3>
+                    </section>
+                    <div class="arrow" href="#">→</div>
+                </article>
+    
+                <article class="card">
+                    <section class="card-content">
+                        <h3>Race Results</h3>
+                    </section>
+                    <div class="arrow" href="#">→</div>
+                </article>
+                
+                <article class="card">
+                    <section class="card-content">
+                        <div class="table-wrapper">
+                            <table class="diagnostic-table">
+                                <thead>
+                                    <tr>
+                                        <th>Rank</th>
+                                        <th>Driver</th>
+                                        <th>Points</th>
+                                        <th>Races</th>
+                                        <th>Quali</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>J. Pepper</td>
+                                        <td>37</td>
+                                        <td>33</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>A. Guven</td>
+                                        <td>34</td>
+                                        <td>34</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>L. Auer</td>
+                                        <td>34</td>
+                                        <td>31</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>J. Gounon</td>
+                                        <td>34</td>
+                                        <td>31</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>05</td>
+                                        <td>T. Preining</td>
+                                        <td>30</td>
+                                        <td>29</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>DTM Driver Standings</h3>
+                    </section>
+                    <div class="arrow" href="#">→</div>
+                </article>
+    
+                <article class="card">
+                    <section class="card-content">
+                        <div class="table-wrapper">
+                            <table class="diagnostic-table">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center;">Teams</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>MANTHEY EMA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MERCEDES-AMG TEAM MANN-FILTER</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TGI TEAM LAMBORGHINI BY GRT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SCHUBERT MOTORSPORT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DORR MOTORSPORT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ABT SPORTSLINE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MERCEDES-AMG TEAM LANDGRAF</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LAND-MOTORSPORT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MERCEDES-AMG TEAM WINWARD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>EMIL FREY RACING</td>
+                                    </tr>
+                                    <tr>
+                                        <td>HRT FORD PERFORMANCE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PAUL MOTORSPORT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COMTOYOU RACING</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>DTM Teams</h3>
+                    </section>
+                    <div class="arrow" href="#">→</div>
+                </article>
+    
+                <article class="card">
+                    <section class="card-content">
+                        <h3>Race Results</h3>
+                    </section>
+                    <div class="arrow" href="#">→</div>
+                </article>
+            </section>
+        </article>
+
+<!-----------------Featured Section--------------------->
+        <article class="featured-container">
+            <section class="featured-header">
+                <h1>Performance Zone</h1>
+                <p>Conveys the victories and drama unfolding on the circuit.</p>
+            </section>
+            <section class="featured-grid">
+                <article class="featured-card">
+                    <section class="featured-card-content">
+                        <img src="assets/img/scuderiaferrari-20240611-0001.jpg" alt="F1 Car">
+                        <h3>Formula 1 Car</h3>
+                        <div class="specs">
+                            <div class="spec-icons">
+                                <div class="icon-1"><img src="assets/icons/speedometer.svg" alt="Speed Icon"></div>
+                                <div class="icon-2"><img src="assets/icons/engine.svg" alt="Engine Icon"></div>
+                                <div class="icon-3"><img src="assets/icons/stopwatch.svg" alt="stopwatch icons"></div>
+                            </div>
+                            <div class="spec-text">
+                                <span>375 Km/H</span>
+                                <span>1.050 Max Power</span>
+                                <span>2.6 s</span>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="fea-arrow" href="#">→</div>
+                </article>
+        
+                <article class="featured-card">
+                    <section class="featured-card-content">
+                        <img src="assets/img/mercedesamgf1-20240611-0003.jpg" alt="F1 Car">
+                        <h3>Formula 1 Car</h3>
+                        <div class="specs">
+                            <div class="spec-icons">
+                                <div class="icon-1"><img src="assets/icons/speedometer.svg" alt="Speed Icon"></div>
+                                <div class="icon-2"><img src="assets/icons/engine.svg" alt="Engine Icon"></div>
+                                <div class="icon-3"><img src="assets/icons/stopwatch.svg" alt="stopwatch icons"></div>
+                            </div>
+                            <div class="spec-text">
+                                <span>375 Km/H</span>
+                                <span>1.050 Max Power</span>
+                                <span>2.6 s</span>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="fea-arrow" href="#">→</div>
+                </article>
+        
+                <article class="featured-card">
+                    <section class="featured-card-content">
+                        <img src="assets/img/dtm.official-20240911-0003.jpg" alt="F1 Car">
+                        <h3>DTM Car</h3>
+                        <div class="specs">
+                            <div class="spec-icons">
+                                <div class="icon-1"><img src="assets/icons/speedometer.svg" alt="Speed Icon"></div>
+                                <div class="icon-2"><img src="assets/icons/engine.svg" alt="Engine Icon"></div>
+                                <div class="icon-3"><img src="assets/icons/stopwatch.svg" alt="stopwatch icons"></div>
+                            </div>
+                            <div class="spec-text">
+                                <span>375 Km/H</span>
+                                <span>1.050 Max Power</span>
+                                <span>2.6 s</span>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="fea-arrow" href="#">→</div>
+                </article>
+            </section>
+        
+            <!-------Lap Times Table------->
+            <section class="featured-grid">
+                <article class="featured-card perfo-card">
+                    <section class="featured-card-content">
+                        <div class="featured-table-wrapper">
+                            <table class="motor-sport-table">
+                                <thead>
+                                    <tr>
+                                        <th>Rank</th>
+                                        <th>Driver</th>
+                                        <th>Points</th>
+                                        <th>Podiums</th>
+                                        <th>Wins</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>O. Piastri <br> <div class="team-name">McLaren</div></td>
+                                        <td>113</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            L. Norris <br> <div class="team-name">McLaren</div>
+                                        </td>
+                                        <td>115</td>
+                                        <td>5</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            M. Vestarppen <br> <div class="team-name">RedBull</div>
+                                        </td>
+                                        <td>99</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>
+                                            G. Russel <br> <div class="team-name">Mercedes</div>
+                                        </td>
+                                        <td>93</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>
+                                            C. Leclerc <br> <div class="team-name">Ferrari</div>
+                                        </td>
+                                        <td>53</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>F1 Driver Standings</h3>
+                    </section>
+                    <div class="fea-arrow" href="#">→</div>
+                </article>
+                
+                <article class="featured-card">
+                    <section class="featured-card-content">
+                        <div class="featured-table-wrapper">
+                            <table class="motor-sport-table">
+                                <thead>
+                                    <tr>
+                                        <th>Rank</th>
+                                        <th>Driver</th>
+                                        <th>Points</th>
+                                        <th>Races</th>
+                                        <th>Quali</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>J. Pepper</td>
+                                        <td>37</td>
+                                        <td>33</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>A. Guven</td>
+                                        <td>34</td>
+                                        <td>34</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>L. Auer</td>
+                                        <td>34</td>
+                                        <td>31</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>J. Gounon</td>
+                                        <td>34</td>
+                                        <td>31</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>05</td>
+                                        <td>T. Preining</td>
+                                        <td>30</td>
+                                        <td>29</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>DTM Driver Standings</h3>
+                    </section>
+                    <div class="fea-arrow" href="#">→</div>
+                </article>
+            </section>
+        </article>
+
+<!-------------------------------Quiz Teaser Section---------------------------------->
+        <article class="quiz-container">
+            <section class="quiz-header">
+                <h1>Knowledge Zone</h1>
+                <p>Check out our video content including informative webinars where you can learn more about your indoor plants.</p>
+            </section>
+        
+            <section class="quiz-section-content">
+                <article class="take-quiz-btns">
+                    <button class="quiz-f1-btn">Formula 1</button>
+                    <button class="quiz-dtm-btn">DTM</button>
+                    <button class="quiz-blend-btn">Blend Quiz</button>
+                </article>
+
+                <article class="quiz-teaser-area">
+                    <h2>Leader Boards</h2>
+                    <section class="quiz-grid">
+                        <article class="quiz-card">
+                            <div class="quiz-table-wrapper">
+                                <table class="leader-board-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Rank</th>
+                                            <th>Driver</th>
+                                            <th>Points</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>01</td>
+                                            <td>J. Pepper</td>
+                                            <td>37</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02</td>
+                                            <td>A. Guven</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03</td>
+                                            <td>L. Auer</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04</td>
+                                            <td>J. Gounon</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>05</td>
+                                            <td>T. Preining</td>
+                                            <td>30</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <h3>Formula 1</h3>
+                        </article>
+                        <article class="quiz-card">
+                            <div class="quiz-table-wrapper">
+                                <table class="leader-board-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Rank</th>
+                                            <th>Driver</th>
+                                            <th>Points</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>01</td>
+                                            <td>J. Pepper</td>
+                                            <td>37</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02</td>
+                                            <td>A. Guven</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03</td>
+                                            <td>L. Auer</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04</td>
+                                            <td>J. Gounon</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>05</td>
+                                            <td>T. Preining</td>
+                                            <td>30</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <h3>DTM</h3>
+                        </article>
+                        <article class="quiz-card">
+                            <div class="quiz-table-wrapper">
+                                <table class="leader-board-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Rank</th>
+                                            <th>Driver</th>
+                                            <th>Points</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>01</td>
+                                            <td>J. Pepper</td>
+                                            <td>37</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02</td>
+                                            <td>A. Guven</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03</td>
+                                            <td>L. Auer</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04</td>
+                                            <td>J. Gounon</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>05</td>
+                                            <td>T. Preining</td>
+                                            <td>30</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <h3>Blended</h3>
+                        </article>
+                    </section>
+                </article>
+            </section>
+        </article>
+
+<!------------Community Section-------------->
+
+        <section class="community-container">
+            <section class="commu-header">
+                <h1>Join Our Community</h1>
+                <p>Conveys the victories and drama unfolding on the circuit.</p>
+            </section>
+
+            <section class="commu-content">
+                <div class="commu-signup">
+                    <div class="spec-icons">
+                        <div class="commu-icon-1"><img src="assets/icons/speedometer.svg" alt="Speed Icon"></div>
+                        <div class="commu-icon-2"><img src="assets/icons/engine.svg" alt="Engine Icon"></div>
+                        <div class="commu-icon-3"><img src="assets/icons/stopwatch.svg" alt="stopwatch icons"></div>
+                    </div>
+                    <div class="commu-text">
+                        <span>Comment and share your<br> prediction for next race.</span>
+                        <span>Alerts on your favorite topics</span>
+                        <span>Discuss races with other fans</span>
+                    </div>
+                    <div class="commu-signup-btn" href="#">
+                        <button>SignUp / Login</button>
+                    </div>
+                </div>
+                
+                <article class="trending-topics">
+                    <h3>Trending Topics F1</h3>
+                    <div class="commu-table-wrapper">
+                        <table class="commu-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Topic</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01</td>
+                                    <td>J. Pepper</td>
+                                </tr>
+                                <tr>
+                                    <td>02</td>
+                                    <td>A. Guven</td>
+                                </tr>
+                                <tr>
+                                    <td>03</td>
+                                    <td>L. Auer</td>
+                                </tr>
+                                <tr>
+                                    <td>04</td>
+                                    <td>J. Gounon</td>
+                                </tr>
+                                <tr>
+                                    <td>05</td>
+                                    <td>T. Preining</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+
+                <article class="trending-topics">
+                    <h3>Trending Topics DTM</h3>
+                    <div class="commu-table-wrapper">
+                        <table class="commu-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Topic</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01</td>
+                                    <td>J. Pepper</td>
+                                </tr>
+                                <tr>
+                                    <td>02</td>
+                                    <td>A. Guven</td>
+                                </tr>
+                                <tr>
+                                    <td>03</td>
+                                    <td>L. Auer</td>
+                                </tr>
+                                <tr>
+                                    <td>04</td>
+                                    <td>J. Gounon</td>
+                                </tr>
+                                <tr>
+                                    <td>05</td>
+                                    <td>T. Preining</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <article class="footer-quik-links">
+            <section class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">F1 Page</a></li>
+                    <li><a href="#">Page</a></li>
+                    <Li><a href="#">IndyCar Page</a></Li>
+                </ul>
+                <ul>
+                    <li><a href="#">Take Quiz</a></li>
+                    <li><a href="#">Car Compare</a></li>
+                    <li><a href="#">Leader Boards</a></li>
+                </ul>
+            </section>
+            <section class="footer-commu">
+                <h3>Join Our Community</h3>
+                <div class="footer-commu-signup">
+                    <div class="footer-commu-text">
+                        <p>
+                            Comment and share your<br> prediction for next race. 
+                            Alerts on your favorite topics Discuss races with other fans
+                        </p>
+                    </div>
+                    <div class="footer-commu-signup-btn" href="#">
+                        <button>SignUp / Login</button>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <p>MotorSportHub  &copy;2025   All Rights Reserved</p>
+    </footer>
+    <script src="assets/js/mainscript.js"></script>
+</body>
+</html>

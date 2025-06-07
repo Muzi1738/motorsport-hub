@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetured Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fullscreen-gallery">
+        <img src="assets/img/dtm.official-20240911-0003.jpg" alt="Image 1" onclick="openFullscreen(0)">
+        <img src="assets/img/fabri_c63-20240404-0001.jpg" alt="Image 2" onclick="openFullscreen(1)">
+        <img src="assets/img/mercedesamgf1-20240611-0003.jpg" alt="Image 3" onclick="openFullscreen(2)">
+        <img src="assets/img/scuderiaferrari-20240611-0001.jpg" alt="Image 3" onclick="openFullscreen(3)">
+        <img src="assets/img/dtm.official-20240911-0003.jpg" alt="Image 3" onclick="openFullscreen(4)">
+        <img src="assets/img/fabri_c63-20240404-0001.jpg" alt="Image 3" onclick="openFullscreen(5)">
+        <img src="assets/img/mercedesamgf1-20240611-0003.jpg" alt="Image 3" onclick="openFullscreen(6)">
+        <img src="assets/img/scuderiaferrari-20240611-0001.jpg" alt="Image 3" onclick="openFullscreen(7)">
+        <img src="assets/img/mercedesamgf1-20240611-0003.jpg" alt="Image 3" onclick="openFullscreen(8)">
+    </div>
+    
+    <div id="fullscreen-container" class="fullscreen">
+        <span class="close-btn" onclick="closeFullscreen()">✖</span>
+        <button class="prev-btn" onclick="changeImage(-1)">&#10094;</button>
+        <img id="fullscreen-image">
+        <button class="next-btn" onclick="changeImage(1)">&#10095;</button>
+    </div>
+
+<script  src="script.js"></script>
+</body>
+</html>

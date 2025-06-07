@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b3d0b;
+    color: white;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 72px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.plants-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.plants-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.plants-card h3 {
+    margin-top: 0;
+}
+
+.plants-card img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

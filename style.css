@@ -1,0 +1,82 @@
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fullscreen-gallery {
+    border: 2px solid #076590;
+    width: 650px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    margin: auto;
+    border-radius: 20px;
+}
+
+@media (max-width: 450px) {
+    .fullscreen-gallery {
+        width: 500px;
+    }
+
+    .fullscreen-gallery img {
+        width: 100px;
+        margin: 0;
+    }
+}
+
+.fullscreen-gallery img {
+    width: 150px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px solid #076590;
+}
+
+.fullscreen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #076590;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #076590;
+}
+
+.prev-btn { 
+    left: 20px; 
+}
+    
+.next-btn {
+    right: 20px; 
+}
