@@ -2,29 +2,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetured Section</title>
+    <title>Featured Section</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="fullscreen-gallery">
-        <img src="assets/img/dtm.official-20240911-0003.jpg" alt="Image 1" onclick="openFullscreen(0)">
-        <img src="assets/img/fabri_c63-20240404-0001.jpg" alt="Image 2" onclick="openFullscreen(1)">
-        <img src="assets/img/mercedesamgf1-20240611-0003.jpg" alt="Image 3" onclick="openFullscreen(2)">
-        <img src="assets/img/scuderiaferrari-20240611-0001.jpg" alt="Image 3" onclick="openFullscreen(3)">
-        <img src="assets/img/dtm.official-20240911-0003.jpg" alt="Image 3" onclick="openFullscreen(4)">
-        <img src="assets/img/fabri_c63-20240404-0001.jpg" alt="Image 3" onclick="openFullscreen(5)">
-        <img src="assets/img/mercedesamgf1-20240611-0003.jpg" alt="Image 3" onclick="openFullscreen(6)">
-        <img src="assets/img/scuderiaferrari-20240611-0001.jpg" alt="Image 3" onclick="openFullscreen(7)">
-        <img src="assets/img/mercedesamgf1-20240611-0003.jpg" alt="Image 3" onclick="openFullscreen(8)">
+    <!-- Font Awesome Icons; Make sure to add it in the <head> tag -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+    <div class="infinite-scroll-container">
+    <div class="infinite-scroll-track">
+        <div class="infinite-scroll-card">
+        <div class="card-content">
+            <i class="fas fa-star"></i>
+            <h3>Card 1</h3>
+            <p>Scroll to see more</p>
+        </div>
+        </div>
+        <div class="infinite-scroll-card">
+        <div class="card-content">
+            <i class="fas fa-heart"></i>
+            <h3>Card 2</h3>
+            <p>Scroll to see more</p>
+        </div>
+        </div>
+        <div class="infinite-scroll-card">
+        <div class="card-content">
+            <i class="fas fa-moon"></i>
+            <h3>Card 3</h3>
+            <p>Scroll to see more</p>
+        </div>
+        </div>
+        <!-- Duplicate cards for seamless loop -->
+        <div class="infinite-scroll-card">
+        <div class="card-content">
+            <i class="fas fa-star"></i>
+            <h3>Card 1</h3>
+            <p>Scroll to see more</p>
+        </div>
+        </div>
+        <div class="infinite-scroll-card">
+        <div class="card-content">
+            <i class="fas fa-heart"></i>
+            <h3>Card 2</h3>
+            <p>Scroll to see more</p>
+        </div>
+        </div>
+        <div class="infinite-scroll-card">
+        <div class="card-content">
+            <i class="fas fa-moon"></i>
+            <h3>Card 3</h3>
+            <p>Scroll to see more</p>
+        </div>
+        </div>
     </div>
-    
-    <div id="fullscreen-container" class="fullscreen">
-        <span class="close-btn" onclick="closeFullscreen()">✖</span>
-        <button class="prev-btn" onclick="changeImage(-1)">&#10094;</button>
-        <img id="fullscreen-image">
-        <button class="next-btn" onclick="changeImage(1)">&#10095;</button>
     </div>
-
-<script  src="script.js"></script>
 </body>
 </html>
