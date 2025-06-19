@@ -517,7 +517,7 @@ body {
 }
 
 .featured-card:hover::after {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .featured-card-content img {
